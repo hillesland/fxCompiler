@@ -1,4 +1,4 @@
-DXSDK_DIR = "../../DXJune2010"
+DXSDK_DIR = "../DXJune2010"
 DXSDK_INC_DIR = DXSDK_DIR .. "/Include"
 DXSDK_LIB_DIR = DXSDK_DIR .. "/Lib/x86"
 
