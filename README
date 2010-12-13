@@ -1,0 +1,11 @@
+Wraps D3DX10CompileFromFile to replace fxc.
+
+fxc sometimes generates bad or incompatible code for 
+the actual D3D runtime.  This project uses the D3D(X)
+runtime to replace fxc functionality to get around that.
+This is currently very minimal, incomplete, and not well 
+tested, but atleast it's a start that should be easy to 
+build on as needed.
+
+Premake4 is used to generate the visual studio files.
+
