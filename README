@@ -7,5 +7,10 @@ This is currently very minimal, incomplete, and not well
 tested, but atleast it's a start that should be easy to 
 build on as needed.
 
+This also replaces characters funky characters (about 127 in ascii)
+with spaces.  This was basically just a workaround bad characters 
+that seemed to be added by, I think, cygwin.  In any case, 
+it can't hurt, since the compiler chokes on invalid chars anyways.
+
 Premake4 is used to generate the visual studio files.
 
